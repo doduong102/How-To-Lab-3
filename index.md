@@ -12,7 +12,7 @@ B) `grep -c` : Prints line count that matches the pattern
 
 C) `grep -n` : Displays the matched lines and their line numbers.
 
-D) `grep -i` : Ignores case for matching(?)
+D) `grep -i` : Prints matched lines, contents only
 
 ## PART A 
 
