@@ -6,27 +6,15 @@ grep is a unix command that allows us to filter through files given a "keyword" 
 
 Some options on the menu:
 
-A) `grep -v` : This prints out all the lines that do not matches the pattern
+A) `grep -v` : Prints all lines that do not match pattern
 
-B) `grep -c` : This prints only a count of the lines that match a pattern
+B) `grep -c` : Prints line count that matches the pattern
 
-C) `grep -n` : Display the matched lines and their line numbers.
+C) `grep -n` : Displays the matched lines and their line numbers.
 
-D) `grep -i` : Ignores case for matching
+D) `grep -i` : Ignores case for matching(?)
 
-![Uploading image.png…]()
-
-`find ./technical -name "*.txt"`
-
-```
-./technical/file1.txt
-./technical/file2.txt
-```
-
-## Part A
-![Image](https://www.springwise.com/wp-content/uploads/2018/03/Bear_Robotics_restaurant_Springwise.jpg)
-![Image](https://media.minecraftstation.com/2020/08/Screen-Shot-2020-08-31-at-5.27.55-AM-1024x634.png)
-(Disclaimer: may not be an accurate representation of what your Server will look like)
+## Part A 
 
 In week 2 we created a NumberServer. After modifying the Handler class we can make it accept strings and perform somewhat similar functions. Another key modification is renaming the NumberServer class containing main to StringServer. Here's the changed code:
 <img width="593" alt="image" src="https://user-images.githubusercontent.com/130004918/234173108-4e053fea-8326-4a6c-8ac0-a4ad838889be.png">
