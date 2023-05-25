@@ -1,8 +1,8 @@
 # Grep Time
 
-grep is a unix command that allows us to filter through files given a "keyword" or pattern that we're looking for. Here is the typical syntax:
+grep is a unix command that allows us to filter through files given a "keyword" or pattern that we're looking for. Here is the syntax for how we use grep:
 
-`grep [options] pattern [files]`
+`grep [string goes here with parenthesis] pattern [file name goes here no paranthesis]`
 
 Some options on the menu:
 
@@ -34,6 +34,16 @@ What `grep -v` is doing in these examples is basically taking our string, file, 
 
 `grep -n` I can see personally be quite useful to use on something like a comment section or chat history. What this version of `grep` does in particular is prints every line that matches the pattern and line number than it appears on
 
-<img width="514" alt="image" src="https://github.com/doduong102/How-To-Lab-3/assets/130004918/946f0011-af4a-4d2a-ac16-c2340a6f8aa4">
+
 
 ## PART D
+
+<img width="547" alt="image" src="https://github.com/doduong102/How-To-Lab-3/assets/130004918/7ad16f68-a87a-43f1-8062-e652cfc3d4b9">
+
+`grep -i` is similar to n but instead it drops the number line count.
+
+And that's grep!
+
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+
+
