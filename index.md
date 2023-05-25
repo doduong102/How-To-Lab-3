@@ -4,13 +4,15 @@ grep is a unix command that allows us to filter through files given a "keyword" 
 
 `grep [options] pattern [files]`
 
-A) grep -v : This prints out all the lines that do not matches the pattern
+Some options on the menu:
 
-B) grep -c : This prints only a count of the lines that match a pattern
+A) `grep -v` : This prints out all the lines that do not matches the pattern
 
-C) grep -n : Display the matched lines and their line numbers.
+B) `grep -c` : This prints only a count of the lines that match a pattern
 
-D) grep -i : Ignores case for matching
+C) `grep -n` : Display the matched lines and their line numbers.
+
+D) `grep -i` : Ignores case for matching
 
 ![Uploading image.png…]()
 
