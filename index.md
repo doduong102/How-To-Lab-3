@@ -1,11 +1,16 @@
-Hey y'all. Today we're going to be learning how to start your own "minecraft" server and bugspray your very own error-ridden java files
+# Grep Time
 
+grep is a unix command that allows us to filter through files given a "keyword" or pattern that we're looking for. Here is the typical syntax:
 
-A) Making your own Webserver
+`grep [options] pattern [files]`
 
-B) Debugging
+A) grep -v : This prints out all the lines that do not matches the pattern
 
-C) Takeaways from an amateur's perspective
+B) grep -c : This prints only a count of the lines that match a pattern
+
+C) grep -n : Display the matched lines and their line numbers.
+
+D) grep -i : Ignores case for matching
 
 ![Uploading image.png…]()
 
@@ -16,7 +21,7 @@ C) Takeaways from an amateur's perspective
 ./technical/file2.txt
 ```
 
-# PART A| Evading tips by making your own Server
+## Part A
 ![Image](https://www.springwise.com/wp-content/uploads/2018/03/Bear_Robotics_restaurant_Springwise.jpg)
 ![Image](https://media.minecraftstation.com/2020/08/Screen-Shot-2020-08-31-at-5.27.55-AM-1024x634.png)
 (Disclaimer: may not be an accurate representation of what your Server will look like)
